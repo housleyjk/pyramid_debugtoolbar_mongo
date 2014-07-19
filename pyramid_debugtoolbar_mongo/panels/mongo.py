@@ -51,5 +51,5 @@ class MongoDebugPanel(DebugPanel):
             'queries': operation_tracker.queries,
             'inserts': operation_tracker.inserts,
             'updates': operation_tracker.updates,
-            'moves': operation_tracker.removes
+            'removes': operation_tracker.removes
         }
