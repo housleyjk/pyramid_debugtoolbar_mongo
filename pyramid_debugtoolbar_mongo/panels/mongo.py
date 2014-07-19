@@ -46,7 +46,7 @@ class MongoDebugPanel(DebugPanel):
     def title(self):
         return 'MongoDB Operations'
 
-    def render_vars(self):
+    def render_vars(self, request):
         return {
             'queries': operation_tracker.queries,
             'inserts': operation_tracker.inserts,
